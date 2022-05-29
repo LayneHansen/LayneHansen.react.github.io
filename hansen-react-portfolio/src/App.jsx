@@ -6,7 +6,7 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Profile from "./Profile";
-import workDeskImage from "../src/assets/workDeskImage3.jpg";
+import workDeskImage from "../src/assets/workDeskImage4.jpg";
 
 function App() {
   return (
@@ -16,15 +16,15 @@ function App() {
         <div id="background-image">
           <img
             src={workDeskImage}
-            width="1800"
+            width="1730"
             usemap="#deskmap"
             alt="Work desk with laptop, phone, and glasses."
           />
         </div>
         <map name="deskmap">
           <area
-            shape="rect"
-            coords="0,0,60,800"
+            shape="poly"
+            coords="0,0,60,300"
             href="computer.htm"
             alt="computer"
           />
