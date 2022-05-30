@@ -3,3 +3,11 @@
     margin: 0px;
     padding: 0px;
 }
+
+#computer-image :hover {
+    opacity: 0%;
+}
+
+#phone-image :hover {
+    opacity: 0%;
+}

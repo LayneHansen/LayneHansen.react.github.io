@@ -23,13 +23,23 @@ function App() {
         </div>
         <map name="deskmap">
           <area
+            id="computer-image"
             shape="poly"
-            coords="0,0,60,300"
+            coords="0,0,315,0,685,725,685,755,680,770,670,780,0,1120"
             href="computer.htm"
             alt="computer"
           />
-          <area shape="rect" coords="" href="phone.htm" alt="phone" />
-          <area shape="rect" coords="" href="glasses.htm" alt="glasses" />
+          <area 
+          id="phone-image"
+          shape="poly" 
+          coords="620,210,850,155,870,160,890,180,1030,715,1013,743,990,770,770,805,760,810,730,775,605,270,615,215" 
+          href="phone.htm" 
+          alt="phone" />
+          <area 
+          shape="rect" 
+          coords="" 
+          href="glasses.htm" 
+          alt="glasses" />
         </map>
       </Container>
       <Routes>
