@@ -37,7 +37,7 @@ function App() {
           alt="phone" />
           <area 
           shape="poly" 
-          coords="1055,305,1255,270,1275,865,1150,850" 
+          coords="1055,305,1235,270,1275,865,1100,850" 
           href="glasses.htm" 
           alt="glasses" />
         </map>
