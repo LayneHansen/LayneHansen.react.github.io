@@ -17,7 +17,7 @@ function Home() {
 
     return (
       <Container>
-        <div id="background-image">
+        <div className="background-image">
           <img
             src={workDeskImage}
             width="1730"
@@ -72,6 +72,9 @@ function Home() {
             />
           </div>
         </map>
+        <h1 id="project-text">Projects</h1>
+        <h1 id="contact-text">Contact Me</h1>
+        <h1 id="profile-text">Profile</h1>
       </Container>
     );
   }

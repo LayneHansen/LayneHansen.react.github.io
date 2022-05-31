@@ -1,3 +1,12 @@
 body {
     background-color: rgb(55, 53, 53);
 }
+
+#projects-title {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#projects_hr {
+    background-color: white;
+}
