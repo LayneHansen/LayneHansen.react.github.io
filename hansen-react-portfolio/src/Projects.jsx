@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
-import sureVoteLogo from "../src/assets/Sure Vote Logo 2.png";
+import './Projects.css';
+import sureVoteLogo from "../src/assets/SureVoteLogo 2.png";
+import rememberThemLogo from "../src/assets/RememberThemLogo.png"
 
 function Projects() {
   return (
@@ -24,24 +26,25 @@ function Projects() {
               <Card.Text>
                 Sure Vote is a responsive full-stack application that utilizes
                 facial recognition technology for secure voting. Sure Vote was
-                built using the MERN paradigm.
+                built using the MERN (Mongo, Express, React, Node) paradigm.
               </Card.Text>
-              <Button variant="primary">Live Website</Button>
-              <Button variant="primary">Github Repo</Button>
+              <Button variant="secondary">Live Website</Button>
+              <Button variant="secondary">Github Repo</Button>
             </Card.Body>
           </Card>
         </Col>
 
         <Col md={2}>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src={rememberThemLogo} />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>Remember Them</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Live Website</Button>
+              <Button variant="secondary">Live Website</Button>
+              <Button variant="secondary">Github Repo</Button>
             </Card.Body>
           </Card>
         </Col>
