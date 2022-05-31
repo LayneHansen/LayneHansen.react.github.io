@@ -11,3 +11,7 @@
 #phone-image :hover {
     opacity: 0%;
 }
+
+#text-area {
+    border: solid white 1px;
+}
