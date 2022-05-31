@@ -26,7 +26,6 @@ function Home() {
           />
         </div>
         <map name="deskmap">
-          {/* <Link to="/projects"> */}
             <div id="computer-area">
               <area
                 id="computer-image"
