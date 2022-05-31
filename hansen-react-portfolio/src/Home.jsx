@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { useState } from "react";
+// import { useState } from "react";
 import workDeskImage from "../src/assets/workDeskImage4.jpg";
 
 function Home() {
@@ -72,9 +72,9 @@ function Home() {
             />
           </div>
         </map>
-        <h1 id="project-text">Projects</h1>
+        {/* <h1 id="project-text">Projects</h1>
         <h1 id="contact-text">Contact Me</h1>
-        <h1 id="profile-text">Profile</h1>
+        <h1 id="profile-text">Profile</h1> */}
       </Container>
     );
   }
