@@ -1,0 +1,21 @@
+.row1-container {
+    padding-top: 25px;
+}
+
+#image_container {
+    border: solid white 2px;
+    padding-right: 400px;
+}
+
+#profile-image {
+    border-radius: 5px;
+}
+
+h1 {
+    color: lightgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.profile-text {
+    color: white;
+}
