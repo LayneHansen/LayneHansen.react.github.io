@@ -6,7 +6,7 @@ import './Profile.css';
 function Profile() {
   return (
     <Container>
-        <h1>profile</h1>
+        {/* <h1>profile</h1> */}
       <Row className="row1-container">
         <Col md={1}></Col>
         <Col md={9} id="image-container">
@@ -23,16 +23,27 @@ function Profile() {
             <Col>
             <h1 id="name-header">Layne D. Hansen</h1>
             <p class="profile-text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Architecto ea aperiam modi eum repellat voluptatem quasi, 
-              sed minus repellendus voluptas maxime minima commodi laborum 
-              rerum omnis illo aspernatur totam? Dignissimos.
+              I am a full-stack developer who loves to bring design and
+              functionality to the user's experience. I have training in 
+              several technologies. On the front end I am most proficient 
+              in HTML, CSS, Bootstrap, Javascript, and React. For back end
+              development I am most proficient in Node.js, Express.js, and 
+              MongoDB. I prefer the MERN stack for full-stack applications. 
             </p>
             <p class="profile-text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Architecto ea aperiam modi eum repellat voluptatem quasi, 
-              sed minus repellendus voluptas maxime minima commodi laborum 
-              rerum omnis illo aspernatur totam? Dignissimos.
+              My education lies mostly in social science, i.e., political
+              science. I have received doctoral level training in quantitative
+              and qualitative research, academic writing and editing, data 
+              creation, manipulation, and analysis. Additionally, I hold 
+              professional certificates in technical writing and full-stack 
+              web development.
+            </p>
+            <p class="profile-text">
+              My passions are my
+              family, web development, movies and TV, reading and writing, 
+              and history and politics. I am a United States Army veteran. 
+              In design and other issues, I believe that the simplest, most 
+              straightforward solution is the best.
             </p>
             </Col>
           </Row>
