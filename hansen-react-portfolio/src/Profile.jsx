@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import profileImage from "../src/assets/LayneColor.jpg";
 import './Profile.css';
 
+import htmlLogo from './assets/HTML5_Logo_512.png';
+import cssLogo from './assets/css_logo.png';
+
 function Profile() {
   return (
     <Container>
@@ -49,6 +52,20 @@ function Profile() {
           </Row>
         </Col>
         <Col md={2}></Col>
+      </Row>
+      
+      <Row className="row2-container">
+      <Col md={1}></Col>
+        <Col md={9} id="image-container">
+          <div>
+            <img src={htmlLogo} width="60px"></img>
+          </div>
+          <div>
+            <img src={cssLogo} width="60px"></img>
+          </div>
+        </Col>
+        <Col md={2}></Col>
+
       </Row>
 
     </Container>

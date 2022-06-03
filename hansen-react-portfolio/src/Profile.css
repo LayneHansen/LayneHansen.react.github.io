@@ -2,6 +2,10 @@
     padding-top: 25px;
 }
 
+.row2-container {
+    padding-top: 25px;
+}
+
 #image_container {
     border: solid white 2px;
     padding-right: 400px;
@@ -18,4 +22,8 @@ h1 {
 
 .profile-text {
     color: white;
+}
+
+img {
+    display: inline-block;
 }
