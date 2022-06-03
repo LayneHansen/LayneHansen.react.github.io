@@ -1,0 +1,42 @@
+#contact-me-header-div {
+    padding-top: 20px;
+}
+
+#contact-me-header {
+color: rgb(103, 144, 232);
+}
+
+#contact-container {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#contact-name {
+    color: rgb(161, 160, 160);
+}
+
+.contact-item {
+    color: white;
+    font-size: 20px;
+}
+
+#linkedin-logo {
+    
+}
+
+#linkedin-logo:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+
+#github-logo {
+    padding-left: 20px;
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+
+#facebook-logo {
+    padding-left: 40px;
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
