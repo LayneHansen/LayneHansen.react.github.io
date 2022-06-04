@@ -72,7 +72,7 @@ function Contact() {
               >
                 <img
                   src={roundLILogo}
-                  width="150px"
+                  width="130px"
                   alt="Clickable Logo that directs user to Layne's LinkedIn profile."
                   id="linkedin-logo"
                 />
@@ -81,7 +81,7 @@ function Contact() {
             <OverlayTrigger
               placement="bottom"
               delay={{ show: 250, hide: 400 }}
-              overlay={renderTooltipLI}
+              overlay={renderTooltipGH}
             >
               <a
                 href="https://github.com/LayneHansen"
@@ -99,7 +99,7 @@ function Contact() {
             <OverlayTrigger
               placement="bottom"
               delay={{ show: 250, hide: 400 }}
-              overlay={renderTooltipLI}
+              overlay={renderTooltipFB}
             >
               <a
                 href="https://www.facebook.com/LayneHansenDev/?modal=admin_todo_tour"

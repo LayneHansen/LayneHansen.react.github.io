@@ -7,17 +7,19 @@
 }
 
 #image_container {
-    border: solid white 2px;
+    
     padding-right: 400px;
 }
 
 #profile-image {
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border: solid white 10px;
 }
 
 h1 {
     color: rgb(92, 150, 77);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
 .profile-text {

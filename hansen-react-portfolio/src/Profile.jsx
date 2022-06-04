@@ -3,8 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import profileImage from "../src/assets/LayneColor.jpg";
 import './Profile.css';
 
-import htmlLogo from './assets/HTML5_Logo_512.png';
-import cssLogo from './assets/css_logo.png';
+import htmlLogo from './assets/htmllogo.png';
+import cssLogo from './assets/csslogo.png';
+import jsLogo from './assets/jslogo.png';
 
 function Profile() {
   return (
@@ -26,12 +27,12 @@ function Profile() {
             <Col>
             <h1 id="name-header">Layne D. Hansen</h1>
             <p class="profile-text">
-              I am a full-stack developer who loves to bring design and
-              functionality to the user's experience. I have training in 
-              several technologies. On the front end I am most proficient 
-              in HTML, CSS, Bootstrap, Javascript, and React. For back end
-              development I am most proficient in Node.js, Express.js, and 
-              MongoDB. I prefer the MERN stack for full-stack applications. 
+              I am a full-stack developer who loves to bring eye-catching
+              design and smooth functionality to the user's experience. I have 
+              training in several technologies. On the front end I am most 
+              proficient in HTML, CSS, Bootstrap, Javascript, and React. For 
+              back end development I am most proficient in Node.js, Express.js, 
+              and MongoDB. I prefer the MERN stack for full-stack applications. 
             </p>
             <p class="profile-text">
               My education lies mostly in social science, i.e., political
@@ -57,9 +58,9 @@ function Profile() {
       <Row className="row2-container">
       <Col md={1}></Col>
         <Col md={9} id="image-container">
-            <img src={htmlLogo} width="60px"></img>
-            <img src={cssLogo} width="50px"></img>
-
+            <img src={htmlLogo} width="50px"></img>
+            <img src={cssLogo} width="78px"></img>
+            <img src={jsLogo} width="50px"></img>
         </Col>
         <Col md={2}></Col>
 
