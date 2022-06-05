@@ -22,6 +22,13 @@ h1 {
     font-weight: 500;
 }
 
+#name-header {
+    font-size: 48px;
+    color: green;
+    font-weight: 600;
+    text-shadow: 3px 3px rgb(57, 56, 56);
+}
+
 .profile-text {
     color: white;
 }

@@ -6,3 +6,7 @@ body {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+#github-button {
+    padding-left: 10px;
+}

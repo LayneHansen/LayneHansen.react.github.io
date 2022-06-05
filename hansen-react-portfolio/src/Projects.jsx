@@ -19,7 +19,7 @@ function Projects() {
             <a
               href="https://young-journey-30565.herokuapp.com/"
               target="_blank"
-            >
+              rel="noreferrer">
               <Card.Img variant="top" src={sureVoteLogo} />
             </a>
             <Card.Body>
@@ -29,8 +29,8 @@ function Projects() {
                 facial recognition technology for secure voting. Sure Vote was
                 built using the MERN (Mongo, Express, React, Node) paradigm.
               </Card.Text>
-              <Button variant="secondary">Live Website</Button>
-              <Button variant="secondary">Github Repo</Button>
+              <Button id="website-button" variant="secondary">Live Website</Button>
+              <Button id="github-button" variant="secondary">Github Repo</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -40,7 +40,7 @@ function Projects() {
             <a
               href="https://protected-forest-25007.herokuapp.com/"
               target="_blank"
-            >
+              rel="noreferrer">
               <Card.Img variant="top" src={rememberThemImage} />
             </a>
             <Card.Body>
@@ -51,8 +51,8 @@ function Projects() {
                 fallen hero, find military-related movies and books, or
                 participate in a forum.
               </Card.Text>
-              <Button variant="secondary">Live Website</Button>
-              <Button variant="secondary">Github Repo</Button>
+              <Button id="website-button" variant="secondary">Live Website</Button>
+              <Button id="github-button" variant="secondary">Github Repo</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -62,7 +62,7 @@ function Projects() {
             <a
               href="https://imbingz.github.io/Ultimate-Streaming-Guide/"
               target="_blank"
-            >
+              rel="noreferrer">
               <Card.Img variant="top" src={streaminGuideImage} />
             </a>
             <Card.Body>
@@ -73,8 +73,8 @@ function Projects() {
                 on dozens of services. It was built with HTML, CSS, and
                 Javascript.
               </Card.Text>
-              <Button variant="secondary">Live Website</Button>
-              <Button variant="secondary">Github Repo</Button>
+              <Button id="website-button" variant="secondary">Live Website</Button>
+              <Button id="github-button" variant="secondary">Github Repo</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -84,7 +84,7 @@ function Projects() {
           <a
               href="https://laynehansen.github.io/password_generator/"
               target="_blank"
-            >
+              rel="noreferrer">
             <Card.Img variant="top" src={passwordGeneratorImage} />
             </a>
             <Card.Body>
@@ -94,8 +94,8 @@ function Projects() {
                 users to generate a unique password to their specs, 
                 i.e., upper and lower case letters, special symbols, numbers.
               </Card.Text>
-              <Button variant="secondary">Live Website</Button>
-              <Button variant="secondary">Github Repo</Button>
+              <Button id="website-button" variant="secondary">Live Website</Button>
+              <Button id="github-button" variant="secondary">Github Repo</Button>
             </Card.Body>
           </Card>
         </Col>

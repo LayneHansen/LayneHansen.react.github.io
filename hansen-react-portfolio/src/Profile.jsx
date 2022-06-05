@@ -6,6 +6,7 @@ import './Profile.css';
 import htmlLogo from './assets/htmllogo.png';
 import cssLogo from './assets/csslogo.png';
 import jsLogo from './assets/jslogo.png';
+import reactLogo from './assets/reactlogo.png';
 
 function Profile() {
   return (
@@ -25,7 +26,7 @@ function Profile() {
           </div>
             </Col>
             <Col>
-            <h1 id="name-header">Layne D. Hansen</h1>
+            <span id="name-header">Layne D. Hansen</span>
             <p class="profile-text">
               I am a full-stack developer who loves to bring eye-catching
               design and smooth functionality to the user's experience. I have 
@@ -61,6 +62,7 @@ function Profile() {
             <img src={htmlLogo} width="50px"></img>
             <img src={cssLogo} width="78px"></img>
             <img src={jsLogo} width="50px"></img>
+            <img src={reactLogo} width="75px"></img>
         </Col>
         <Col md={2}></Col>
 
