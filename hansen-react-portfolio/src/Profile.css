@@ -12,8 +12,9 @@
 }
 
 #profile-image {
-    /* border-radius: 5px; */
+    border-radius: 1px;
     border: solid white 10px;
+    box-shadow: 10px 10px 5px;
 }
 
 h1 {
@@ -31,4 +32,5 @@ h1 {
 
 .profile-text {
     color: white;
+    text-align: justify;
 }
