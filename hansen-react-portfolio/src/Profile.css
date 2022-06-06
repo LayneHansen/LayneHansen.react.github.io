@@ -25,7 +25,7 @@ h1 {
 
 #name-header {
     font-size: 48px;
-    color: green;
+    color: rgb(53, 176, 53);
     font-weight: 600;
     text-shadow: 3px 3px rgb(57, 56, 56);
 }
@@ -33,4 +33,14 @@ h1 {
 .profile-text {
     color: white;
     text-align: justify;
+}
+
+#bootstrap-logo {
+    border: solid white 1px;
+    border-radius: 5px;
+}
+
+#node-logo {
+    padding-left: 5px;
+    padding-top: 3px;
 }

@@ -7,6 +7,8 @@ import htmlLogo from './assets/htmllogo.png';
 import cssLogo from './assets/csslogo.png';
 import jsLogo from './assets/jslogo.png';
 import reactLogo from './assets/reactlogo.png';
+import bootstrapLogo from './assets/bootstraplogo.png';
+import nodeLogo from './assets/nodelogo.png';
 
 function Profile() {
   return (
@@ -59,10 +61,29 @@ function Profile() {
       <Row className="row2-container">
       <Col md={1}></Col>
         <Col md={9} id="image-container">
-            <img src={htmlLogo} width="50px"></img>
-            <img src={cssLogo} width="78px"></img>
-            <img src={jsLogo} width="50px"></img>
-            <img src={reactLogo} width="75px"></img>
+            <img src={htmlLogo} 
+            width="50px"
+            id="html-logo">
+            </img>
+            <img src={cssLogo} 
+            width="78px"
+            id="css-logo">
+            </img>
+            <img src={jsLogo} 
+            width="50px"
+            id="js-logo">
+            </img>
+            <img src={nodeLogo} 
+            width="65px"
+            id="node-logo">  
+            </img>
+            <img src={reactLogo} 
+            width="80px">
+            </img>
+            <img src={bootstrapLogo} 
+            width="65px" 
+            id="bootstrap-logo">
+            </img>
         </Col>
         <Col md={2}></Col>
 
