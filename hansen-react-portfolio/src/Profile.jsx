@@ -9,6 +9,9 @@ import jsLogo from './assets/jslogo.png';
 import reactLogo from './assets/reactlogo.png';
 import bootstrapLogo from './assets/bootstraplogo.png';
 import nodeLogo from './assets/nodelogo.png';
+import mongodbLogo from './assets/mongodblogo.png';
+import sqlLogo from './assets/sqllogo.png';
+import expressLogo from './assets/expresslogo.png';
 
 function Profile() {
   return (
@@ -73,16 +76,28 @@ function Profile() {
             width="50px"
             id="js-logo">
             </img>
-            <img src={nodeLogo} 
-            width="65px"
-            id="node-logo">  
-            </img>
             <img src={reactLogo} 
             width="80px">
             </img>
             <img src={bootstrapLogo} 
             width="65px" 
             id="bootstrap-logo">
+            </img>
+            <img src={nodeLogo} 
+            width="65px"
+            id="node-logo">  
+            </img>
+            <img src={expressLogo} 
+            width="65px"
+            id="express-logo">  
+            </img>
+            <img src={mongodbLogo} 
+            width="65px" 
+            id="mongodb-logo">
+            </img>
+            <img src={sqlLogo} 
+            width="70px" 
+            id="sql-logo">
             </img>
         </Col>
         <Col md={2}></Col>
