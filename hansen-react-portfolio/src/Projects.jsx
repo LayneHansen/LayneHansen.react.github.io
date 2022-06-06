@@ -23,7 +23,7 @@ function Projects() {
               <Card.Img variant="top" src={sureVoteLogo} />
             </a>
             <Card.Body>
-              <Card.Title>Sure Vote</Card.Title>
+              <Card.Title id="sure-vote-title">Sure Vote</Card.Title>
               <Card.Text>
                 Sure Vote is a responsive full-stack application that utilizes
                 facial recognition technology for secure voting. Sure Vote was
@@ -44,7 +44,7 @@ function Projects() {
               <Card.Img variant="top" src={rememberThemImage} />
             </a>
             <Card.Body>
-              <Card.Title>Remember Them</Card.Title>
+              <Card.Title id="remember-them-title">Remember Them</Card.Title>
               <Card.Text>
                 Remember Them allows users to research and pay tribute to fallen
                 US servicemembers. Users can add their own military story,
@@ -66,7 +66,7 @@ function Projects() {
               <Card.Img variant="top" src={streaminGuideImage} />
             </a>
             <Card.Body>
-              <Card.Title>Streaming Guide</Card.Title>
+              <Card.Title id="streaming-guide-title">Streaming Guide</Card.Title>
               <Card.Text>
                 Streaming Guide is a web-based, mobile-friendly application that
                 allows users to search movies and TV shows currently streaming
@@ -88,7 +88,7 @@ function Projects() {
             <Card.Img variant="top" src={passwordGeneratorImage} />
             </a>
             <Card.Body>
-              <Card.Title>Password Generator</Card.Title>
+              <Card.Title id="password-generator-title">Password Generator</Card.Title>
               <Card.Text>
                 Password Generator is a lightweight, web-based application that allows
                 users to generate a unique password to their specs, 

@@ -88,7 +88,7 @@ function Profile() {
             id="node-logo">  
             </img>
             <img src={expressLogo} 
-            width="65px"
+            width="72px"
             id="express-logo">  
             </img>
             <img src={mongodbLogo} 

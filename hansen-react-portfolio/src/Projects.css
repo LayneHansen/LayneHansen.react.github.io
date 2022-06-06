@@ -7,6 +7,34 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.card {
+    border: solid 1px darkgrey;
+}
+
+.card-body {
+    background-color: #36454F;
+}
+
+#sure-vote-title {
+    color: #79D4FF;
+}
+
+#remember-them-title {
+    color: #E6D906;
+}
+
+#streaming-guide-title {
+    color: #49A1D7;
+}
+
+#password-generator-title {
+    color: #99CA99;
+}
+
+.card-text {
+    color: white;
+}
+
 #github-button {
     padding-left: 10px;
 }
