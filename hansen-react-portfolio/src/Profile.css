@@ -18,14 +18,14 @@
 }
 
 h1 {
-    color: rgb(92, 150, 77);
+    color: rgb(77, 129, 150);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
 
 #name-header {
     font-size: 48px;
-    color: rgb(53, 176, 53);
+    color: #02AAEB;
     font-weight: 600;
     text-shadow: 3px 3px rgb(57, 56, 56);
 }
