@@ -3,16 +3,17 @@
 }
 
 #contact-me-header {
-color: rgb(52, 143, 228);
+    color: rgb(52, 143, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px rgb(33, 33, 33);
 }
 
 #contact-container {
-    padding-top: 10px;
     padding-bottom: 20px;
 }
 
 #contact-name {
-    color: rgb(161, 160, 160);
+    color: rgb(136, 135, 135);
 }
 
 .contact-item {
@@ -21,7 +22,6 @@ color: rgb(52, 143, 228);
 }
 
 #linkedin-logo {
-    
 }
 
 #linkedin-logo:hover {
@@ -39,7 +39,7 @@ color: rgb(52, 143, 228);
 }
 
 #facebook-logo {
-    padding-left: 30px;
+    /* padding-left: 10px; */
 }
 
 #facebook-logo:hover {

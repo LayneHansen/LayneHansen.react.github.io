@@ -66,38 +66,46 @@ function Profile() {
         <Col md={9} id="image-container">
             <img src={htmlLogo} 
             width="50px"
-            id="html-logo">
+            id="html-logo"
+            alt="html logo">
             </img>
             <img src={cssLogo} 
             width="78px"
-            id="css-logo">
+            id="css-logo"
+            alt="css logo">
             </img>
             <img src={jsLogo} 
             width="50px"
-            id="js-logo">
+            id="js-logo"
+            alt="Javascript logo">
             </img>
             <img src={reactLogo} 
-            width="80px">
+            width="80px"
+            alt="React js logo">
             </img>
             <img src={bootstrapLogo} 
             width="65px" 
-            id="bootstrap-logo">
+            id="bootstrap-logo"
+            alt="bootstrap logo">
             </img>
             <img src={nodeLogo} 
             width="65px"
-            id="node-logo">  
+            id="node-logo"
+            alt="node js logo">  
             </img>
             <img src={expressLogo} 
-            width="72px"
-            id="express-logo">  
+            width="65px"
+            alt="express js logo">  
             </img>
             <img src={mongodbLogo} 
             width="65px" 
-            id="mongodb-logo">
+            id="mongodb-logo"
+            alt="mongo db logo">
             </img>
             <img src={sqlLogo} 
             width="70px" 
-            id="sql-logo">
+            id="sql-logo"
+            alt="sql logo">
             </img>
         </Col>
         <Col md={2}></Col>
