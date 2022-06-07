@@ -5,6 +5,7 @@ import "./Contact.css";
 import roundLILogo from "./assets/linkedinlogo.png";
 import roundGHLogo from "./assets/githubwoodlogo.png";
 import roundFBLogo from "./assets/facebooklogo.png";
+import roundRSLogo from "./assets/resumelogo.png";
 
 const renderTooltipLI = (props) => (
   <Tooltip id="button-tooltip" {...props}>
@@ -21,6 +22,12 @@ const renderTooltipGH = (props) => (
 const renderTooltipFB = (props) => (
   <Tooltip id="button-tooltip" {...props}>
     Facebook Dev Page
+  </Tooltip>
+);
+
+const renderTooltipRS = (props) => (
+  <Tooltip id="button-tooltip" {...props}>
+    Resume
   </Tooltip>
 );
 
@@ -115,6 +122,25 @@ function Contact() {
                   width="190px"
                   alt="Clickable Logo that directs user to Layne's Facebook web developer page."
                   id="facebook-logo"
+                />
+              </a>
+            </OverlayTrigger>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={renderTooltipRS}
+            >
+              <a
+                href="./assets/LayneWebDevResume.docx" 
+                download
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={roundRSLogo}
+                  width="150px"
+                  alt="Clickable Logo that downloads user to Layne's resume."
+                  id="resume-logo"
                 />
               </a>
             </OverlayTrigger>
