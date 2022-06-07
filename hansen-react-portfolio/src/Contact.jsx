@@ -38,7 +38,7 @@ function Contact() {
         <Col md={3}></Col>
         <Col md={6}>
           <div id="contact-me-header-div">
-            <h1 id="contact-me-header">CONTACT ME</h1>
+            <h1 id="contact-me-header">Contact Me</h1>
           </div>
         </Col>
         <Col md={3}></Col>
@@ -131,10 +131,8 @@ function Contact() {
               overlay={renderTooltipRS}
             >
               <a
-                href="./assets/LayneWebDevResume.docx" 
+                href="./assets/documents/LayneWebDevResume.pdf" 
                 download
-                target="_blank"
-                rel="noreferrer"
               >
                 <img
                   src={roundRSLogo}

@@ -19,7 +19,8 @@ function Projects() {
             <a
               href="https://young-journey-30565.herokuapp.com/"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               <Card.Img variant="top" src={sureVoteLogo} />
             </a>
             <Card.Body>
@@ -29,8 +30,12 @@ function Projects() {
                 facial recognition technology for secure voting. Sure Vote was
                 built using the MERN (Mongo, Express, React, Node) paradigm.
               </Card.Text>
-              <Button id="website-button" variant="secondary">Live Website</Button>
-              <Button id="github-button" variant="secondary">Github Repo</Button>
+              <Button id="website-button" variant="secondary">
+                Live Website
+              </Button>
+              <Button id="github-button" variant="secondary">
+                Github Repo
+              </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -40,7 +45,8 @@ function Projects() {
             <a
               href="https://protected-forest-25007.herokuapp.com/"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               <Card.Img variant="top" src={rememberThemImage} />
             </a>
             <Card.Body>
@@ -51,8 +57,12 @@ function Projects() {
                 fallen hero, find military-related movies and books, or
                 participate in a forum.
               </Card.Text>
-              <Button id="website-button" variant="secondary">Live Website</Button>
-              <Button id="github-button" variant="secondary">Github Repo</Button>
+              <Button id="website-button" variant="secondary">
+                Live Website
+              </Button>
+              <Button id="github-button" variant="secondary">
+                Github Repo
+              </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -62,40 +72,62 @@ function Projects() {
             <a
               href="https://imbingz.github.io/Ultimate-Streaming-Guide/"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               <Card.Img variant="top" src={streaminGuideImage} />
             </a>
             <Card.Body>
-              <Card.Title id="streaming-guide-title">Streaming Guide</Card.Title>
+              <Card.Title id="streaming-guide-title">
+                Streaming Guide
+              </Card.Title>
               <Card.Text>
                 Streaming Guide is a web-based, mobile-friendly application that
                 allows users to search movies and TV shows currently streaming
                 on dozens of services. It was built with HTML, CSS, and
                 Javascript.
               </Card.Text>
-              <Button id="website-button" variant="secondary">Live Website</Button>
-              <Button id="github-button" variant="secondary">Github Repo</Button>
+              <Button id="website-button" variant="secondary">
+                Live Website
+              </Button>
+              <Button id="github-button" variant="secondary">
+                Github Repo
+              </Button>
             </Card.Body>
           </Card>
         </Col>
 
         <Col md={2}>
           <Card style={{ width: "18rem" }}>
-          <a
+            <a
               href="https://laynehansen.github.io/password_generator/"
               target="_blank"
-              rel="noreferrer">
-            <Card.Img variant="top" src={passwordGeneratorImage} />
+              rel="noreferrer"
+            >
+              <Card.Img variant="top" src={passwordGeneratorImage} />
             </a>
             <Card.Body>
-              <Card.Title id="password-generator-title">Password Generator</Card.Title>
+              <Card.Title id="password-generator-title">
+                Password Generator
+              </Card.Title>
               <Card.Text>
-                Password Generator is a lightweight, web-based application that allows
-                users to generate a unique password to their specs, 
-                i.e., upper and lower case letters, special symbols, numbers.
+                Password Generator is a lightweight, web-based application that
+                allows users to generate a unique password to their specs, i.e.,
+                upper and lower case letters, special symbols, numbers.
               </Card.Text>
-              <Button id="website-button" variant="secondary">Live Website</Button>
-              <Button id="github-button" variant="secondary">Github Repo</Button>
+              <Button
+                class="btn btn-md btn-block"
+                id="website-button"
+                variant="secondary"
+              >
+                Live Website
+              </Button>
+              <Button
+                class="btn btn-md btn-block"
+                id="github-button"
+                variant="secondary"
+              >
+                Github Repo
+              </Button>
             </Card.Body>
           </Card>
         </Col>

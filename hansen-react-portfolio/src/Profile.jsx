@@ -12,6 +12,7 @@ import nodeLogo from './assets/nodelogo.png';
 import mongodbLogo from './assets/mongodblogo.png';
 import sqlLogo from './assets/sqllogo.png';
 import expressLogo from './assets/expresslogo.png';
+import mernLogo from './assets/mernlogo.png';
 
 function Profile() {
   return (
@@ -101,6 +102,11 @@ function Profile() {
             width="65px" 
             id="mongodb-logo"
             alt="mongo db logo">
+            </img>
+            <img src={mernLogo} 
+            width="85px" 
+            id="mern-logo"
+            alt="mern logo">
             </img>
             <img src={sqlLogo} 
             width="70px" 
