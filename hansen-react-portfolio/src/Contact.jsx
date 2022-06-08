@@ -131,8 +131,9 @@ function Contact() {
               overlay={renderTooltipRS}
             >
               <a
-                href="./assets/documents/LayneWebDevResume.pdf" 
-                download
+                href="https://docs.google.com/document/d/1-wzPVRDTyK-xSYD-0B6uI9sNUzTjO7hPpH1mdn2LgS8/edit" 
+                target="_blank"
+                rel="noreferrer"
               >
                 <img
                   src={roundRSLogo}
