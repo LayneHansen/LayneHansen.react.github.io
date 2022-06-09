@@ -1,6 +1,6 @@
 .navbar {
     position: static;
-    text-align: center;
+    align-items: center;
 }
 
 .navbar-nav.navbar-center {

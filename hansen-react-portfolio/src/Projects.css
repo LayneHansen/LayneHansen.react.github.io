@@ -8,6 +8,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     text-shadow: 2px 2px rgb(33, 33, 33);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .card {

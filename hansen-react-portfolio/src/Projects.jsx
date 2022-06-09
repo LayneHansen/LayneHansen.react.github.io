@@ -9,7 +9,16 @@ import passwordGeneratorImage from "../src/assets/PasswordGenerator.png";
 function Projects() {
   return (
     <div className="App">
-      <h1 id="projects-title">Projects</h1>
+
+      <Row>
+        <Col md={2}>
+        </Col>
+        <Col md={8}>
+          <h1 id="projects-title">Projects</h1>
+        </Col>
+        <Col md={2}>
+        </Col>
+      </Row>
 
       <Row>
         <Col md={2}></Col>

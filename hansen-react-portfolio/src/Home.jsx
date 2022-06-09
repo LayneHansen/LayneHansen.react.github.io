@@ -43,14 +43,6 @@ function Home() {
             alt="glasses"
           />
         </div>
-        <div id="text-area">
-          <area
-            shape="rect"
-            coords="600,25,850,100"
-            href="text.htm"
-            alt="text"
-          />
-        </div>
       </map>
     </Container>
   );
