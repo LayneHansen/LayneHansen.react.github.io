@@ -24,7 +24,7 @@ function Projects() {
         <Col md={2}></Col>
 
         <Col md={2}>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem" }} id="sure-vote-card">
             <a
               href="https://young-journey-30565.herokuapp.com/"
               target="_blank"
@@ -62,7 +62,7 @@ function Projects() {
         </Col>
 
         <Col md={2}>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem" }} id="remember-them-card">
             <a
               href="https://protected-forest-25007.herokuapp.com/"
               target="_blank"
@@ -100,7 +100,7 @@ function Projects() {
         </Col>
 
         <Col md={2}>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem" }} id="streaming-guide-card">
             <a
               href="https://imbingz.github.io/Ultimate-Streaming-Guide/"
               target="_blank"
@@ -139,7 +139,7 @@ function Projects() {
         </Col>
 
         <Col md={2}>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem" }} id="password-generator-card">
             <a
               href="https://laynehansen.github.io/password_generator/"
               target="_blank"
