@@ -16,6 +16,13 @@ body {
     border: solid 2px darkgrey;
 }
 
+.card:hover {
+    border: solid 2px darkgrey;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    opacity: 75%;
+}
+
 .card-body {
     background-color: #36454F;
 }
