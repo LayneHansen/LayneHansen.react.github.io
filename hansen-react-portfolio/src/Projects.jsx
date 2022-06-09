@@ -30,10 +30,21 @@ function Projects() {
                 facial recognition technology for secure voting. Sure Vote was
                 built using the MERN (Mongo, Express, React, Node) paradigm.
               </Card.Text>
-              <Button id="website-button" variant="secondary">
+              <Button 
+              id="website-button" 
+              variant="secondary"
+              href="https://young-journey-30565.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              >
                 Live Website
               </Button>
-              <Button id="github-button" variant="secondary">
+              <Button 
+              id="github-button" 
+              variant="secondary"
+              href="https://github.com/LayneHansen/newSure-vote"
+              target="_blank"
+              rel="noreferrer">
                 Github Repo
               </Button>
             </Card.Body>
@@ -86,7 +97,10 @@ function Projects() {
                 on dozens of services. It was built with HTML, CSS, and
                 Javascript.
               </Card.Text>
-              <Button id="website-button" variant="secondary">
+              <Button 
+              id="website-button" 
+              variant="secondary"
+              href="">
                 Live Website
               </Button>
               <Button id="github-button" variant="secondary">
