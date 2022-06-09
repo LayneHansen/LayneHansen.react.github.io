@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, Row, Col, NavDropdown } from "react-bootstrap";
 import { LinkContainer, Link } from 'react-router-dom';
 import './TopNav.css';
 
@@ -8,10 +8,12 @@ function TopNav() {
       <Container>
         <Navbar.Brand href="#home">Layne Hansen</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/projects">Projects</Nav.Link>
-          <Nav.Link href="/profile">Profile</Nav.Link>
-          <Nav.Link href="/contact">Contact Me</Nav.Link>
+          <NavDropdown title="Pages">
+            <NavDropdown.Item href="/">Home</NavDropdown.Item>
+            <NavDropdown.Item href="/projects">Projects</NavDropdown.Item>
+            <NavDropdown.Item href="/profile">Profile</NavDropdown.Item>
+            <NavDropdown.Item href="/contact">Contact Me</NavDropdown.Item>
+          </NavDropdown>
         </Nav>
       </Container>
     </Navbar>
