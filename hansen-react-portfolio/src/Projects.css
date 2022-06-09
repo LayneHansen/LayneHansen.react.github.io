@@ -44,4 +44,6 @@ body {
 
 .btn {
     color: white;
+    background-color: #36454F;
+    border: solid 2px darkgrey;
 }
