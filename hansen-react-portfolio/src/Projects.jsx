@@ -30,21 +30,22 @@ function Projects() {
                 facial recognition technology for secure voting. Sure Vote was
                 built using the MERN (Mongo, Express, React, Node) paradigm.
               </Card.Text>
-              <Button 
-              id="website-button" 
-              variant="secondary"
-              href="https://young-journey-30565.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
+              <Button
+                id="website-button"
+                variant="secondary"
+                href="https://young-journey-30565.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
               >
                 Live Website
               </Button>
-              <Button 
-              id="github-button" 
-              variant="secondary"
-              href="https://github.com/LayneHansen/newSure-vote"
-              target="_blank"
-              rel="noreferrer">
+              <Button
+                id="github-button"
+                variant="secondary"
+                href="https://github.com/LayneHansen/newSure-vote"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Github Repo
               </Button>
             </Card.Body>
@@ -68,10 +69,21 @@ function Projects() {
                 fallen hero, find military-related movies and books, or
                 participate in a forum.
               </Card.Text>
-              <Button id="website-button" variant="secondary">
+              <Button
+                id="website-button"
+                variant="secondary"
+                href="https://protected-forest-25007.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Live Website
               </Button>
-              <Button id="github-button" variant="secondary">
+              <Button 
+              id="github-button" 
+              variant="secondary"
+              href="https://github.com/LayneHansen/remember-them"
+              target="_blank"
+              rel="noreferrer">
                 Github Repo
               </Button>
             </Card.Body>
@@ -100,10 +112,17 @@ function Projects() {
               <Button 
               id="website-button" 
               variant="secondary"
-              href="">
+              href="https://imbingz.github.io/Ultimate-Streaming-Guide/"
+              target="_blank"
+              rel="noreferrer">
                 Live Website
               </Button>
-              <Button id="github-button" variant="secondary">
+              <Button 
+              id="github-button" 
+              variant="secondary"
+              href="https://github.com/LayneHansen/Ultimate-Streaming-Guide"
+              target="_blank"
+              rel="noreferrer">
                 Github Repo
               </Button>
             </Card.Body>
@@ -132,14 +151,18 @@ function Projects() {
                 class="btn btn-md btn-block"
                 id="website-button"
                 variant="secondary"
-              >
+                href="https://laynehansen.github.io/password_generator/"
+                target="_blank"
+                rel="noreferrer">
                 Live Website
               </Button>
               <Button
                 class="btn btn-md btn-block"
                 id="github-button"
                 variant="secondary"
-              >
+                href="https://github.com/LayneHansen/password_generator"
+                target="_blank"
+                rel="noreferrer">
                 Github Repo
               </Button>
             </Card.Body>
